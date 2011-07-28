@@ -23,7 +23,7 @@ public class YearLevelTest {
 	@Test
 	public void secondYearShouldNotAllowMoreThanMaximumUnits() throws Exception {
 		YearLevel secondYear = SecondYear.getInstance();
-		assertFalse(secondYear.validateUnits(25));
+		assertFalse(secondYear.validateUnits(26));
 	}
 	
 	@Test
